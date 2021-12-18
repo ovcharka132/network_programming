@@ -2,5 +2,5 @@
 
 ## Lab 1 - Basic winsock
 screenshots:
-![Screenshot 1](img/screenstot-1.png)
-![Screenshot 2](img/screenstot-2.png)
+![Lab1 Screenshot 1](img/lab1-screenshot-1.png)
+![Lab1 Screenshot 2](img/lab1-screenshot-2.png)
