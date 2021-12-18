@@ -1,16 +1,16 @@
-cmake_minimum_required(VERSION 3.20)
-project(image_manipulation)
+cmake_minimum_required(VERSION 3.5)
+
+project(network_programming)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(${PROJECT_NAME} src/main.cpp )
-add_executable("${PROJECT_NAME}_client" src/sample_client.cpp)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
-include_directories(include C:/SFML/include)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../dist/lib/${CMAKE_SYSTEM_NAME}/${CMAKE_SYSTEM_PROCESSOR})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../dist/lib/${CMAKE_SYSTEM_NAME}/${CMAKE_SYSTEM_PROCESSOR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../dist/bin/${CMAKE_SYSTEM_NAME}/${CMAKE_SYSTEM_PROCESSOR})
 
-set(SFML_ROOT C:/SFML/)
-set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
-find_package(SFML 2.5 REQUIRED COMPONENTS graphics)
-
-target_link_libraries(${PROJECT_NAME} sfml-graphics wsock32 ws2_32)
-target_link_libraries("${PROJECT_NAME}_client" wsock32 ws2_32)
+add_subdirectory(utils)
+add_subdirectory(labs)
