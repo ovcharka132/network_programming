@@ -8,3 +8,6 @@ screenshots:
 ## Lab 2 - Multi thread
 ![Lab2 Screenshot 1](img/lab2-screenshot-1.png)
 ![Lab2 Screenshot 2](img/lab2-screenshot-2.png)
+
+## Lab 6 - Scanner
+![Lab6 Screenshot](img/lab6-screenshot.png)
