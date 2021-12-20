@@ -11,3 +11,6 @@ screenshots:
 
 ## Lab 6 - Scanner
 ![Lab6 Screenshot](img/lab6-screenshot.png)
+
+## Lab 7 - Multi Thread Server
+![Lab7 Screenshot](img/lab7-screenshot.png)
