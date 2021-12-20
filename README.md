@@ -9,6 +9,9 @@ screenshots:
 ![Lab2 Screenshot 1](img/lab2-screenshot-1.png)
 ![Lab2 Screenshot 2](img/lab2-screenshot-2.png)
 
+## Lab 4 - Java UDP
+![Lab6 Screenshot](img/lab4-screenshot.png)
+
 ## Lab 6 - Scanner
 ![Lab6 Screenshot](img/lab6-screenshot.png)
 
